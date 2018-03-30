@@ -7,6 +7,7 @@ import com.google.gson.annotations.SerializedName;
  */
 
 public class Now {
+
     @SerializedName("tmp")
     public String temperature;
 
@@ -14,7 +15,9 @@ public class Now {
     public More more;
 
     public class More {
+
         @SerializedName("txt")
         public String info;
+
     }
 }
